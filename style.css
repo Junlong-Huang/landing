@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+  font-family: 'Noto sans', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+  
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+h2 {
+    font-weight: bolder;
+}
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+
+    .container{
+        width: 600px;
+    }
+}
+@media (max-width: 600px) {
+
+    .container{
+        width: 400px;
+    }
+}
+@media (max-width: 400px) {
+
+    .container{
+        width: 200px;
+    }
+}
+
+#member p{
+    font-family: 'Noto sans', sans-serif;
+}
+
+.content {
+    font-family: 'Noto sans', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.card-white{
+    background-color: whitesmoke;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 6px;
+    margin: 20px 0px;
+    text-align: center;
+    font-family: 'Noto sans';
+}
+
+
+#introduction p {
+    margin-bottom: 40px;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+.mail{
+    background-color:#EE2C2C;
+    font-size: 20px;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.row {
+    --bs-gutter-x: 30px;
+}
+.justify-content-between {
+    justify-content: space-between!important;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
